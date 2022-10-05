@@ -23,5 +23,14 @@ namespace ISRPO_Palashicheva_PR6
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            tb.Text = datePicker2.SelectedDate.Value.Subtract(datePicker1.SelectedDate.Value).ToString();
+
+        }
+
+
+
     }
 }

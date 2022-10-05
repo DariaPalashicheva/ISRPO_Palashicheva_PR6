@@ -43,6 +43,7 @@ namespace ISRPO_Palashicheva_PR6
             {
                 Window1 window1 = new Window1();
                 window1.Show();
+                mainw.Close();
             }
         }
     }
